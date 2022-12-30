@@ -24,5 +24,5 @@ func main() {
 
 	router.GET("/ping", ping)
 
-	router.Run("localhost:9090")
+	router.Run()
 }
